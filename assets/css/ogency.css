@@ -45,6 +45,20 @@
 /*--------------------------------------------------------------
 # Utility
 --------------------------------------------------------------*/
+.bg-color {
+  background-color: #101010;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #1a1a1a !important;
+  color: #ffffff; /* opcional: asegura texto legible */
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.1); /* ajustado para modo oscuro */
+}
+
+.text-accordeon{
+  color: var(--ogency-base)
+}
+
 .mision-vision {
   margin: 60px 0px;
 }
@@ -8314,8 +8328,8 @@ h6 {
 .page-header .container {
   position: relative;
   z-index: 10;
-  padding-top: 231px;
-  padding-bottom: 211px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 @media (max-width: 767px) {
@@ -8653,7 +8667,7 @@ h6 {
 .contact-two {
   position: relative;
   background-color: var(--ogency-black);
-  padding: 120px 0;
+  padding: 0 0 120px 0;
 }
 
 @media (max-width: 767px) {
@@ -9342,7 +9356,7 @@ h6 {
 .services-details {
   background-color: var(--ogency-black);
   position: relative;
-  padding: 120px 0;
+  padding: 0 0 120px 0;
 }
 
 @media (max-width: 767px) {

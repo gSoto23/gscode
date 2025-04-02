@@ -129,13 +129,84 @@
                                 At GS Code, we specialize in delivering AI-powered solutions tailored to the evolving needs of modern industries. Our mission is to help businesses harness the power of artificial intelligence to optimize operations, improve decision-making, and drive innovation.
                             </p>
                             <h4 class="services-details__content__title-two">Smart AI Applications Across Industries</h4>
-                            <p class="services-details__content__text">
-                                <strong>Video Analytics</strong><br>Unlock real-time visual intelligence with AI-powered video analytics that detect, track, and analyze behavior, people, and objects to drive smarter decisions.<br> <ul> <li>Real-time detection of people, objects, faces, and license plates</li> <li>Behavioral analysis and event reconstruction</li> <li>Smart metric extraction and dashboard integration</li> <li>Compatible with existing VMS and BI platforms</li> </ul><br>
-                                <strong>NLP & Text Intelligence</strong><br> Chatbot development, text summarization, and sentiment analysis<br> <ul> <li>Chatbot development, text summarization, and sentiment analysis</li> <li>Document classification and customer insight generation</li> </ul><br>
-                                <strong>Predictive Intelligence</strong><br> Make smarter decisions with predictive intelligence. We use data-driven models to anticipate trends, detect anomalies, and deliver actionable insights that drive strategic outcomes.<br><ul> <li>Demand forecasting</li> <li>Maintenance and anomaly detection</li> <li>Intelligent decision support systems</li> </ul><br>
-                                <strong>Automation (RPA)</strong><br> Streamline your operations with intelligent automation. Our RPA solutions eliminate repetitive tasks, optimize workflows, and boost efficiency across your business.<br><ul> <li>Workflow automation</li> <li>Repetitive task reduction</li> <li>End-to-end process optimization</li> </ul><br>
-                            </p>
-                            <h3 class="services-details__content__title-three"> Industries We Serve</h3>
+                            <div class="accordion services-details__content__text" id="servicesAccordion">
+                                <!-- Video Analytics (Abierto por defecto) -->
+                                <div class="accordion-item bg-color text-white border-secondary">
+                                  <h2 class="accordion-header" id="headingVideo">
+                                    <button class="accordion-button bg-color text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVideo" aria-expanded="true" aria-controls="collapseVideo">
+                                      <h6 class="text-accordeon">Video Analytics</h6>
+                                    </button>
+                                  </h2>
+                                  <div id="collapseVideo" class="accordion-collapse collapse show" aria-labelledby="headingVideo" data-bs-parent="#servicesAccordion">
+                                    <div class="accordion-body">
+                                        <p>Unlock real-time visual intelligence with AI-powered video analytics that detect, track, and analyze behavior, people, and objects to drive smarter decisions.</p>
+                                      <ul>
+                                        <li>Real-time detection of people, objects, faces, and license plates</li>
+                                        <li>Behavioral analysis and event reconstruction</li>
+                                        <li>Smart metric extraction and dashboard integration</li>
+                                        <li>Compatible with existing VMS and BI platforms</li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              
+                                <!-- NLP & Text Intelligence -->
+                                <div class="accordion-item bg-color text-white border-secondary">
+                                  <h2 class="accordion-header" id="headingNLP">
+                                    <button class="accordion-button bg-color text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNLP" aria-expanded="false" aria-controls="collapseNLP">
+                                      <h6 class="text-accordeon">NLP & Text Intelligence</h6>
+                                    </button>
+                                  </h2>
+                                  <div id="collapseNLP" class="accordion-collapse collapse" aria-labelledby="headingNLP" data-bs-parent="#servicesAccordion">
+                                    <div class="accordion-body">
+                                        <p>Extract valuable insights from language data with AI-driven solutions like chatbots, text summarization, sentiment analysis, and document classification, enabling smarter decisions through real-time language understanding.</p>
+                                      <ul>
+                                        <li>Chatbot development, text summarization, and sentiment analysis</li>
+                                        <li>Document classification and customer insight generation</li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              
+                                <!-- Predictive Intelligence -->
+                                <div class="accordion-item bg-color text-white border-secondary">
+                                  <h2 class="accordion-header" id="headingPredictive">
+                                    <button class="accordion-button bg-color text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePredictive" aria-expanded="false" aria-controls="collapsePredictive">
+                                        <h6 class="text-accordeon">Predictive Intelligence</h6>
+                                    </button>
+                                  </h2>
+                                  <div id="collapsePredictive" class="accordion-collapse collapse" aria-labelledby="headingPredictive" data-bs-parent="#servicesAccordion">
+                                    <div class="accordion-body">
+                                      <p>Make smarter decisions with predictive intelligence. We use data-driven models to anticipate trends, detect anomalies, and deliver actionable insights that drive strategic outcomes.</p>
+                                      <ul>
+                                        <li>Demand forecasting</li>
+                                        <li>Maintenance and anomaly detection</li>
+                                        <li>Intelligent decision support systems</li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              
+                                <!-- Automation (RPA) -->
+                                <div class="accordion-item bg-color text-white border-secondary">
+                                  <h2 class="accordion-header" id="headingAutomation">
+                                    <button class="accordion-button bg-color text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAutomation" aria-expanded="false" aria-controls="collapseAutomation">
+                                        <h6 class="text-accordeon">Automation (RPA)</h6>
+                                    </button>
+                                  </h2>
+                                  <div id="collapseAutomation" class="accordion-collapse collapse" aria-labelledby="headingAutomation" data-bs-parent="#servicesAccordion">
+                                    <div class="accordion-body">
+                                      <p>Streamline your operations with intelligent automation. Our RPA solutions eliminate repetitive tasks, optimize workflows, and boost efficiency across your business.</p>
+                                      <ul>
+                                        <li>Workflow automation</li>
+                                        <li>Repetitive task reduction</li>
+                                        <li>End-to-end process optimization</li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            <h3 class="services-details__content__title-three text-accordeon"> Industries We Serve</h3>
                             <p class="services-details__content__text">
                                 We deliver AI-powered solutions across a wide range of industries, including Retail, Logistics, Smart Cities, Finance, and Healthcare adapting our technology to real-world challenges and business goals.
                             </p>
