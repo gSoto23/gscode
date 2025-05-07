@@ -50,7 +50,7 @@
 }
 
 .title-space {
-    margin-top: 30px !important;
+    margin-top: 75px !important;
     color: black;
 }
 
@@ -2341,7 +2341,7 @@ h6 {
     z-index: 991;
     top: 0;
     left: 0;
-    background-color: black;
+    background-color: #101010;
     box-shadow: 0px 10px 60px 0px RGBA(var(--ogency-black-rgb), 0.07);
     width: 100%;
     transform: translateY(-120%);
@@ -4719,7 +4719,6 @@ h6 {
 
 .about-three__author {
     position: relative;
-    padding: 0 0 0 93px;
     min-height: 70px;
 }
 
@@ -4757,6 +4756,10 @@ h6 {
     background-color: var(--ogency-black);
     padding: 52px 0;
     border-top: 1px solid RGBA(var(--ogency-white-rgb), 0.1);
+}
+
+.slider-text {
+    background-color: #101010;
 }
 
 .slider-text-one .slider-text-one__animate-text {
@@ -6681,9 +6684,7 @@ h6 {
     height: 137px;
     border-radius: 50%;
     overflow: hidden;
-    border: 1px solid var(--ogency-base);
     padding: 9.5px;
-    background-color: var(--ogency-black);
     position: relative;
 }
 
@@ -7889,7 +7890,6 @@ h6 {
 
 .contact-info {
     position: relative;
-    background-color: var(--ogency-black);
 }
 
 .contact-info__wrapper {
@@ -7897,7 +7897,6 @@ h6 {
     z-index: 2;
     background-color: var(--ogency-black2);
     padding: 57px 40px 61px 60px;
-    margin-bottom: -110px;
 }
 
 @media (max-width: 1199px) {
@@ -7957,6 +7956,7 @@ h6 {
     line-height: 30px;
     letter-spacing: -.72px;
     margin: 0 0 1px;
+    color: white;
 }
 
 .contact-info__item__text {
@@ -8375,7 +8375,7 @@ h6 {
     position: relative;
     z-index: 10;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
 }
 
 @media (max-width: 767px) {
@@ -8737,11 +8737,11 @@ h6 {
 .contact-two .contact-one__input-box textarea,
 .contact-two .contact-one__input-box input[type="text"],
 .contact-two .contact-one__input-box input[type="email"] {
-    background-color: var(--ogency-black2);
+    background-color: #f9fafb;
 }
 
 .contact-two .contact-one__input-box .bootstrap-select > .dropdown-toggle {
-    background-color: var(--ogency-black2) !important;
+    background-color: #f9fafb !important;
 }
 
 .contact-two .contact-one__form .row {
@@ -9424,7 +9424,6 @@ h6 {
 
 .services-details__services-list {
     position: relative;
-    background-color: var(--ogency-black2);
     margin: 0 0 30px;
     padding: 30px;
 }
@@ -9442,7 +9441,7 @@ h6 {
 }
 
 .services-details__services li a {
-    background-color: var(--ogency-black);
+    background-color: #f9fafb;
     display: block;
     position: relative;
     font-size: 16px;
@@ -9468,7 +9467,7 @@ h6 {
 }
 
 .services-details__services li.current a, .services-details__services li:hover a {
-    color: var(--ogency-white);
+    color: #79c31a;
 }
 
 .services-details__services li.current a::after, .services-details__services li:hover a::after {
